@@ -1,38 +1,49 @@
-set tabstop=2 shiftwidth=2
-set number
-set showcmd
-set cursorline
-set hlsearch
-set autoindent
-set smartcase
-set incsearch
-set magic
-set lazyredraw
-set showmatch
-syntax enable
-syntax on
-filetype plugin indent on
-try
-
-colorscheme desert
-
-catch
-endtry
-
-set background=dark
-set encoding=utf8
-set ffs=unix,dos,mac
-set nowb
-set noswapfile
-set shiftwidth=2
-set lbr
-set tw=500
-
-set cindent
-set cinkeys-=0#
-set indentkeys-=0#
-set wrap "Wrap lines
-
-set ignorecase
-set expandtab
-set backspace=indent,eol,start
+set tabstop=4 shiftwidth=4                                                                      
+  2 set number
+  3 set showcmd
+  4 set cursorline
+  5 set hlsearch
+  6 set autoindent
+  7 set smartcase
+  8 set incsearch
+  9 set magic
+ 10 set lazyredraw
+ 11 set showmatch
+ 12 syntax enable
+ 13 syntax on
+ 14 filetype plugin indent on
+ 15 try
+ 16 
+ 17 colorscheme desert
+ 18 
+ 19 catch
+ 20 endtry
+ 21 
+ 22 set background=dark
+ 23 set encoding=utf8
+ 24 set ffs=unix,dos,mac
+ 25 set nowb
+ 26 set noswapfile
+ 27 set shiftwidth=2
+ 28 set lbr
+ 29 set tw=500
+ 30 
+ 31 set cindent
+ 32 set cinkeys-=0#
+ 33 set indentkeys-=0#
+ 34 set wrap "Wrap lines
+ 35 
+ 36 set ignorecase
+ 37 set expandtab
+ 38 set backspace=indent,eol,start
+ 39 set smartindent
+ 40 nnoremap <C-h> <C-w>h
+ 41 nnoremap <C-j> <C-w>j
+ 42 nnoremap <C-k> <C-w>k
+ 43 nnoremap <C-l> <C-w>l
+ 44 call plug#begin('~/.vim/plugged')
+ 45 
+ 46 " Exemplo de plugin para melhor navegação
+ 47 Plug 'scrooloose/nerdtree'
+ 48 
+ 49 call plug#end()
