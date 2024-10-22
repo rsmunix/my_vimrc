@@ -3,7 +3,7 @@
 # 1. Crie ou edite o arquivo vimrc:
 $ vim ~/.vimrc
 
-# 2. Após adicionado tudo o conteúdo ao seu vimrc, instale o vim-plug:
+# 2. Após adicionado todo o conteúdo ao seu vimrc, instale o vim-plug:
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # 3. Depois, adicione a seguinte configuração ao seu .vimrc para usar plugins:
